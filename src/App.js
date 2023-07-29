@@ -20,7 +20,7 @@ Heres some code, \`<div></div>\`, between 2 backticks.
 // this is multi-line code:
 
 function anotherExample(firstLine, lastLine) {
-  if (firstLine === \'\`\`\`\' && lastLine === \'\`\`\`\' ) {
+  if (firstLine === '\`\`\`' && lastLine === '\`\`\`' ) {
     return multiLineCode;
   }
 }
@@ -45,7 +45,7 @@ And here. | Okay. | I think we get it.
      - With different indentation levels.
         - That look like this.
 
-        
+
 1. And there are numbered lists too.
 1. Use just 1s if you want!
 1. And last but not least, let's not forget embedded images:
